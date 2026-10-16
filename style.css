@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  color: #24292e;
+}
+
+.buscador, .controles {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+input, select, button {
+  padding: 8px 12px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #0366d6;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+button:hover {
+  background-color: #0250a3;
+}
+
+#load-more {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 25px;
+  font-size: 16px;
+}
+
+.repo-item {
+  background: white;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.repo-item h3 {
+  margin: 0 0 5px 0;
+}
+
+.repo-item a {
+  text-decoration: none;
+  color: #0366d6;
+}
+
+.repo-item a:hover {
+  text-decoration: underline;
+}
+
+#language-summary {
+  background: #e0e0e0;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+#language-summary h2 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+#language-summary ul {
+  padding-left: 20px;
+}
+
+#rate-limit {
+  text-align: center;
+  color: #666;
+  font-size: 14px;
+  margin-top: 20px;
+}

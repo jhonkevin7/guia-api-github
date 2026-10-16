@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buscador de Repositorios GitHub - Actividad 3</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Buscador de Repositorios GitHub</h1>
+
+  <!-- Buscador -->
+  <div class="buscador">
+    <input type="text" id="username-input" placeholder="Usuario de GitHub" value="jhonkevin7">
+    <button id="search-btn">Buscar</button>
+  </div>
+
+  <!-- Selector de ordenamiento (Actividad 2) -->
+  <div class="controles">
+    <label for="sort-select">Ordenar por:</label>
+    <select id="sort-select">
+      <option value="updated">Actualizado</option>
+      <option value="created">Creado</option>
+      <option value="full_name">Nombre</option>
+    </select>
+  </div>
+
+  <!-- Resumen de lenguajes (Actividad 2) -->
+  <div id="language-summary"></div>
+
+  <!-- Lista de repositorios -->
+  <div id="repos-list"></div>
+
+  <!-- ACTIVIDAD 3: Botón Cargar más (oculto por defecto) -->
+  <button id="load-more" style="display: none;">Cargar más</button>
+
+  <!-- ACTIVIDAD 3: Peticiones restantes -->
+  <p id="rate-limit"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
