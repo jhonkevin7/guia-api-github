@@ -35,3 +35,4 @@ El proyecto está publicado en GitHub Pages.
 
 ## Reflexión sobre seguridad
 No se debe incluir un token de acceso en el código de un repositorio público porque expone credenciales sensibles. Si un atacante obtiene el token, podría acceder y modificar los repositorios del usuario. La forma correcta es usar variables de entorno o archivos `.env` que estén en el `.gitignore`.
+<!-- Commit 3: Paginación implementada -->
